@@ -16,10 +16,24 @@ var reducer = (state = {name: 'Anonymous'}, action) => {
   }
   return state;
 };
-var store = redux.createStore(reducer);
+var store = redux.createStore(reducer, redux.compose(
+  window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f
+));
+
+
+
+
+// Subscribe to CHANGE_SEARCH_TEXT
+var unsubscribe = store.subscribe( () => {
+  var state = store.getState();
+
+  console.log('Name is', state.name);
+  document.getElementById('app').innerHTML   = state.name;
+});
+// unsubscribe();
 
 var currentState = store.getState();
-console.log("currentState: ",currentState);
+console.log('currentState: ', currentState);
 
 var action = {
   type: 'CHANGE_NAME',
@@ -27,4 +41,9 @@ var action = {
 };
 store.dispatch(action);
 
-console.log('Name should be andrei', store.getState());
+
+
+store.dispatch({
+  type: 'CHANGE_NAME',
+  name: 'John'
+});

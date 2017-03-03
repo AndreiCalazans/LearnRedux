@@ -22,7 +22,19 @@ var reducer = (state = stateDefault, action) => {
   }
   return state;
 };
-var store = redux.createStore(reducer);
+var store = redux.createStore(reducer, redux.compose(
+  window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f
+));
+
+
+// subscribe to changes
+store.subscribe(() => {
+  var state = store.getState();
+
+  console.log('searchText change: ', state.searchText);
+  document.getElementById('app').innerHTML = state.searchText;
+});
+
 
 
 console.log("currentState: ",store.getState());
@@ -32,4 +44,13 @@ store.dispatch({
   type: 'CHANGE_SEARCH_TEXT',
   searchText: 'change me'
 });
-console.log('Update state is: ', store.getState());
+
+store.dispatch({
+  type: 'CHANGE_SEARCH_TEXT',
+  searchText: 'second change me'
+});
+
+store.dispatch({
+  type: 'CHANGE_SEARCH_TEXT',
+  searchText: 'third change me'
+});
