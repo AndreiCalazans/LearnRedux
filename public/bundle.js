@@ -880,7 +880,7 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function($) {\n\nvar _react = __webpack_require__(7);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(154);\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _reactRouter = __webpack_require__(238);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//Load foundations-sites\n// require(\"foundation-sites/dist/css/foundation.min.css\");\n$(document).foundation();\n\n//App css\n__webpack_require__(260);\n\n_reactDom2.default.render(_react2.default.createElement(\n  'div',\n  null,\n  'BoilerPlate 3'\n), document.getElementById('app'));\n\n__webpack_require__(119);\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(265)))//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTE2LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2FwcC9hcHAuanM/MmRlOSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbSc7XG5pbXBvcnQge1JvdXRlLCBSb3V0ZXIsIEluZGV4Um91dGUsIGhhc2hIaXN0b3J5fSBmcm9tICdyZWFjdC1yb3V0ZXInO1xuXG5cbi8vTG9hZCBmb3VuZGF0aW9ucy1zaXRlc1xuLy8gcmVxdWlyZShcImZvdW5kYXRpb24tc2l0ZXMvZGlzdC9jc3MvZm91bmRhdGlvbi5taW4uY3NzXCIpO1xuJChkb2N1bWVudCkuZm91bmRhdGlvbigpO1xuXG4vL0FwcCBjc3NcbnJlcXVpcmUoJ2FwcC5zY3NzJyk7XG5cblxuUmVhY3RET00ucmVuZGVyKFxuICA8ZGl2PkJvaWxlclBsYXRlIDM8L2Rpdj4sXG4gIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhcHAnKVxuKTtcblxucmVxdWlyZSgnLi9yZWR1eC1leGFtcGxlLmpzJyk7XG5cblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gYXBwL2FwcC5qcyJdLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBOzs7QUFBQTtBQUNBOzs7QUFBQTtBQUNBOzs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUVBO0FBQ0E7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUdBOyIsInNvdXJjZVJvb3QiOiIifQ==");
+eval("/* WEBPACK VAR INJECTION */(function($) {\n\nvar _react = __webpack_require__(7);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(154);\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _reactRouter = __webpack_require__(238);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//Load foundations-sites\n// require(\"foundation-sites/dist/css/foundation.min.css\");\n$(document).foundation();\n\n//App css\n__webpack_require__(260);\n\n_reactDom2.default.render(_react2.default.createElement(\n  'div',\n  null,\n  'BoilerPlate 3'\n), document.getElementById('app'));\n\n__webpack_require__(267);\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(265)))//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTE2LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2FwcC9hcHAuanM/MmRlOSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbSc7XG5pbXBvcnQge1JvdXRlLCBSb3V0ZXIsIEluZGV4Um91dGUsIGhhc2hIaXN0b3J5fSBmcm9tICdyZWFjdC1yb3V0ZXInO1xuXG5cbi8vTG9hZCBmb3VuZGF0aW9ucy1zaXRlc1xuLy8gcmVxdWlyZShcImZvdW5kYXRpb24tc2l0ZXMvZGlzdC9jc3MvZm91bmRhdGlvbi5taW4uY3NzXCIpO1xuJChkb2N1bWVudCkuZm91bmRhdGlvbigpO1xuXG4vL0FwcCBjc3NcbnJlcXVpcmUoJ2FwcC5zY3NzJyk7XG5cblxuUmVhY3RET00ucmVuZGVyKFxuICA8ZGl2PkJvaWxlclBsYXRlIDM8L2Rpdj4sXG4gIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhcHAnKVxuKTtcblxucmVxdWlyZSgnLi9yZWR1eC10b2RvLWV4YW1wbGUuanMnKTtcblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyBhcHAvYXBwLmpzIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUFBO0FBQ0E7OztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBRUE7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBR0E7Iiwic291cmNlUm9vdCI6IiJ9");
 
 /***/ }),
 /* 117 */
@@ -895,13 +895,7 @@ eval("__webpack_require__(114)(__webpack_require__(152))//# sourceMappingURL=dat
 eval("__webpack_require__(114)(__webpack_require__(153))//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTE4LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vfi9qcXVlcnkvZGlzdC9qcXVlcnkuanM/YjVkOSJdLCJzb3VyY2VzQ29udGVudCI6WyJyZXF1aXJlKFwiISEvaG9tZS9hbmRyZWkvRG9jdW1lbnRzL0JvaWxlclBsYXRlcy9MZWFyblJlZHV4L25vZGVfbW9kdWxlcy9zY3JpcHQtbG9hZGVyL2FkZFNjcmlwdC5qc1wiKShyZXF1aXJlKFwiISEvaG9tZS9hbmRyZWkvRG9jdW1lbnRzL0JvaWxlclBsYXRlcy9MZWFyblJlZHV4L25vZGVfbW9kdWxlcy9yYXctbG9hZGVyL2luZGV4LmpzIS9ob21lL2FuZHJlaS9Eb2N1bWVudHMvQm9pbGVyUGxhdGVzL0xlYXJuUmVkdXgvbm9kZV9tb2R1bGVzL2pxdWVyeS9kaXN0L2pxdWVyeS5qc1wiKSlcblxuXG4vLy8vLy8vLy8vLy8vLy8vLy9cbi8vIFdFQlBBQ0sgRk9PVEVSXG4vLyAuL34vc2NyaXB0LWxvYWRlciEuL34vanF1ZXJ5L2Rpc3QvanF1ZXJ5LmpzXG4vLyBtb2R1bGUgaWQgPSAxMThcbi8vIG1vZHVsZSBjaHVua3MgPSAwIl0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==");
 
 /***/ }),
-/* 119 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar _redux = __webpack_require__(257);\n\nvar _redux2 = _interopRequireDefault(_redux);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log('starting redux example');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMTE5LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2FwcC9yZWR1eC1leGFtcGxlLmpzPzRiYWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHJlZHV4IGZyb20gJ3JlZHV4JztcblxuY29uc29sZS5sb2coJ3N0YXJ0aW5nIHJlZHV4IGV4YW1wbGUnKTtcblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyBhcHAvcmVkdXgtZXhhbXBsZS5qcyJdLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBOzs7OztBQUNBIiwic291cmNlUm9vdCI6IiJ9");
-
-/***/ }),
+/* 119 */,
 /* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1922,6 +1916,13 @@ __webpack_require__(118);
 __webpack_require__(117);
 module.exports = __webpack_require__(116);
 
+
+/***/ }),
+/* 267 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar redux = __webpack_require__(257);\n\nconsole.log('starting todo redux example');\n\nvar stateDefault = {\n  searchText: '',\n  showCompleted: false,\n  todos: []\n};\n\nvar reducer = function reducer() {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : stateDefault;\n  var action = arguments[1];\n\n  // state = state || {name: 'Anonymous'};  es5 syntax\n  return state;\n};\nvar store = redux.createStore(reducer);\n\nconsole.log(\"currentState: \", store.getState());//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMjY3LmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vL2FwcC9yZWR1eC10b2RvLWV4YW1wbGUuanM/YTkxOSJdLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgcmVkdXggID0gcmVxdWlyZSgncmVkdXgnKTtcblxuY29uc29sZS5sb2coJ3N0YXJ0aW5nIHRvZG8gcmVkdXggZXhhbXBsZScpO1xuXG52YXIgc3RhdGVEZWZhdWx0ID0ge1xuICBzZWFyY2hUZXh0OiAnJyxcbiAgc2hvd0NvbXBsZXRlZDpmYWxzZSxcbiAgdG9kb3M6IFtdXG59O1xuXG52YXIgcmVkdWNlciA9IChzdGF0ZSA9IHN0YXRlRGVmYXVsdCwgYWN0aW9uKSA9PiB7XG4gIC8vIHN0YXRlID0gc3RhdGUgfHwge25hbWU6ICdBbm9ueW1vdXMnfTsgIGVzNSBzeW50YXhcbiAgcmV0dXJuIHN0YXRlO1xufTtcbnZhciBzdG9yZSA9IHJlZHV4LmNyZWF0ZVN0b3JlKHJlZHVjZXIpO1xuXG5cbmNvbnNvbGUubG9nKFwiY3VycmVudFN0YXRlOiBcIixzdG9yZS5nZXRTdGF0ZSgpKTtcblxuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyBhcHAvcmVkdXgtdG9kby1leGFtcGxlLmpzIl0sIm1hcHBpbmdzIjoiOztBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFIQTtBQUNBO0FBS0E7QUFBQTtBQUFBO0FBQ0E7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBRUEiLCJzb3VyY2VSb290IjoiIn0=");
 
 /***/ })
 /******/ ]);

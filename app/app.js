@@ -16,4 +16,4 @@ ReactDOM.render(
   document.getElementById('app')
 );
 
-require('./redux-example.js');
+require('./redux-todo-example.js');
