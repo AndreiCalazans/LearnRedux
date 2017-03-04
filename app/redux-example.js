@@ -4,13 +4,14 @@ console.log('starting redux example');
 
 
 var actions = require('./actions/index');
+
+// call configure to get back the configuration of the reducers and reduce.compose inside the store
 var store = require('./store/configureStore').configure();
 
 
 // Subscribe to CHANGE_SEARCH_TEXT
 var unsubscribe = store.subscribe( () => {
   var state = store.getState();
-
 
   console.log('New state' , store.getState());
 
@@ -29,6 +30,8 @@ console.log('currentState: ', currentState);
 // for store.dispatch you can use both formulation of the object using type and name
 // or you can use action generator functions like changeName()
 
+// for you to be able to pass this function inside dispatch that returns another function
+// you must use redux-thumk
 store.dispatch(actions.fetchLocation());
 
 // dispatch with action generators

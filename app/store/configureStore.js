@@ -13,6 +13,8 @@ export var configure = () => {
 
   // creating the store and composing to be able to use chrome dev tools for redux
   var store = redux.createStore(reducer, redux.compose(
+    // use middleware thumk to be able to pass functions inside dispatch that return other functions.
+    // this is bc dispatch only accepts functions that return objects.
     redux.applyMiddleware(thunk),
     window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f
   ));
